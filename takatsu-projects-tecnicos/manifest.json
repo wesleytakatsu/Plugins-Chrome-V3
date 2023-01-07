@@ -1,0 +1,35 @@
+{
+  "name": "Takatsu's Projects",
+  "description": "Coleção de ferramentas para suporte técnico!",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "icons": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+  },
+  "background": {
+      "service_worker": "scripts/script.js",
+      "scripts": ["scripts/jquery.min.js", "bootstrap.bundle.min.js"]
+  },
+  "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+          "16": "images/16.png",
+          "32": "images/32.png",
+          "48": "images/48.png",
+          "128": "images/128.png"
+      }
+  },
+  "options_page": "options.html",
+  "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "tabs"
+  ],
+  "host_permissions": [
+      "https://www.google.com/*"
+  ]
+}
