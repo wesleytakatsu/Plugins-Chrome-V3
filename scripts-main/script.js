@@ -6,3 +6,9 @@ chrome.runtime.onInstalled.addListener(() => {
     //  ÓTIMO PARA FAZER REGISTROS E CONFIGURAÇÕES INICIAIS
 });
 
+
+function carregapartes(){
+    $('#navbar.html').load("navbar.html.html");
+}
+
+carregapartes()

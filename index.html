@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-main/bootstrap.min.css">
+    <link rel="stylesheet" href="styles-main/style.css">
+    <title>Takatsu's Projects</title>
+</head>
+<body>
+    <header>
+        <div id="navegacao"></div>
+    </header>
+    <main>
+
+    </main>
+
+    <footer>
+        <div id="rodape"></div>
+    </footer>
+    <script>
+        //  CARREGAMENTO DAS PARTES
+        $(document).ready(function(){
+            $('#navegacao').load("navbar.html");
+        });
+        $(document).ready(function(){
+            $('#rodape').load("footer.html");
+        });
+    </script>
+    <script src="scripts-main/script.js"></script>
+    <script src="scripts-main/bootstrap.bundle.min.js"></script>
+    <script src="scripts-main/jquery.min.js"></script>
+</body>
+</html>
